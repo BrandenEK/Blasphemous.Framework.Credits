@@ -1,7 +1,7 @@
 ﻿using Gameplay.UI.Widgets;
 using HarmonyLib;
 
-namespace Blasphemous.Framework.Credits;
+namespace Blasphemous.Framework.Credits.Patches;
 
 [HarmonyPatch(typeof(CreditsWidget), "OnEnable")]
 class CreditsWidget_OnEnable_Patch

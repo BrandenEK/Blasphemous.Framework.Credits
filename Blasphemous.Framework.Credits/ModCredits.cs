@@ -1,4 +1,5 @@
-﻿
+﻿using Blasphemous.Framework.Credits.Editors;
+
 namespace Blasphemous.Framework.Credits;
 
 /// <summary>

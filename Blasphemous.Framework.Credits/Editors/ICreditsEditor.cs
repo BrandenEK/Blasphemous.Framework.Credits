@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Blasphemous.Framework.Credits;
+namespace Blasphemous.Framework.Credits.Editors;
 
 /// <summary>
 /// Interface for adding elements to the credits scene
