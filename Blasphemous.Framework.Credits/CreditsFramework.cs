@@ -11,6 +11,5 @@ public class CreditsFramework : BlasMod
 
     protected override void OnInitialize()
     {
-        // Perform initialization here
     }
 }
