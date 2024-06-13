@@ -6,4 +6,8 @@ namespace Blasphemous.Framework.Credits;
 /// </summary>
 public abstract class ModCredits
 {
+    /// <summary>
+    /// Called whenever the credits scene is loaded and modifications are ready to be made
+    /// </summary>
+    protected internal abstract void OnDisplay(ICreditsEditor editor);
 }
