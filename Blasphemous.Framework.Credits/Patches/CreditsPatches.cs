@@ -3,7 +3,7 @@ using HarmonyLib;
 
 namespace Blasphemous.Framework.Credits.Patches;
 
-[HarmonyPatch(typeof(CreditsWidget), "OnEnable")]
+[HarmonyPatch(typeof(CreditsWidget), nameof(CreditsWidget.OnEnable))]
 class CreditsWidget_OnEnable_Patch
 {
     public static void Prefix(CreditsWidget __instance)

@@ -16,6 +16,6 @@ public static class CreditsRegister
             return;
 
         _credits.Add(credits);
-        Main.CreditsFramework.Log($"Registered credits section: {credits.GetType().Name}");
+        ModLog.Info($"Registered credits section: {credits.GetType().Name}");
     }
 }
