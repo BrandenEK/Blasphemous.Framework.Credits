@@ -28,11 +28,11 @@ public class CreditsFramework : BlasMod
             }
             catch (System.Exception e)
             {
-                LogError(e);
+                ModLog.Error(e);
             }
         }
 
-        Log($"Added {amount} sections to the credits");
+        ModLog.Info($"Added {amount} sections to the credits");
     }
 
 #if DEBUG
