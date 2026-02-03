@@ -9,7 +9,7 @@
     <Authors>Damocles</Authors>
     <Company>Damocles</Company>
     <Description>Framework that allows other mods to implement sections in the game credits</Description>
-    <Version>0.1.1</Version>
+    <Version>0.2.0</Version>
 
     <TargetName>CreditsFramework</TargetName>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
